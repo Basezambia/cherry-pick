@@ -9,18 +9,36 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@base-org/account": "^2.4.2",
+    "@base-org/account-ui": "^1.0.1",
+    "@coinbase/cdp-core": "^0.0.57",
+    "@coinbase/cdp-hooks": "^0.0.57",
+    "@coinbase/cdp-react": "^0.0.57",
+    "@coinbase/cdp-sdk": "^1.38.5",
+    "@supabase/supabase-js": "^2.79.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "ipfs-http-client": "^60.0.1",
+    "jspdf": "^3.0.3",
+    "jspdf-autotable": "^5.0.2",
+    "lucide-react": "^0.552.0",
+    "next": "16.0.1",
+    "qrcode.react": "^4.2.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "next": "16.0.1"
+    "react-hot-toast": "^2.6.0",
+    "tailwind-merge": "^3.3.1",
+    "viem": "^2.38.6",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
-    "eslint-config-next": "16.0.1"
+    "eslint-config-next": "16.0.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
